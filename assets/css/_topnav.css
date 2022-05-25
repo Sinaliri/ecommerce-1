@@ -33,13 +33,13 @@
     border-color:#ced4da;
 }
 .button-container-in-topnav .login-btn{
-    font-size: 0.55rem;
+    font-size: 0.65rem;
     color: black;   
     border-color: transparent;
     background-color: #ebebeb;
 }
 .button-container-in-topnav .basket-btn{
-    font-size: 0.55rem;
+    font-size: 0.65rem;
     color: #fff;
 }
 .button-container-in-topnav a span.icon{
@@ -50,7 +50,7 @@
     /* margin-right: 10px; */
 }
 .button-container-in-topnav a {
-    width: 8rem;
+    width: 9rem;
 }
 @media screen and (max-width:600px) {
     .button-container-in-topnav a{
