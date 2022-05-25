@@ -1,0 +1,7 @@
+.breadcrumb{
+    font-size: 0.7rem;
+    color: #6c757d !important;
+}
+.breadcrumb .breadcrumb-item a{
+    color: #6c757d !important;
+}

@@ -1,4 +1,6 @@
 @import url('/assets/css/_topnav.css');
+@import url('/assets/css/_breadcrumb.css');
+@import url('/assets/css/_product-detail.css');
 @font-face {
     font-family: IRANSans-web;
     src: url(/assets/fonts/IRANSans-web.woff);
@@ -20,12 +22,21 @@ body{
 a{
     text-decoration: none;
 }
-@media (min-width:1200px) {
+@media screen and (min-width:1200px) {
     .container,
     .container-sm,
     .container-md,
     .container-lg,
     .container-xl {
         max-width: 1340px;
+    }
+}
+@media screen and (min-width:1200px) {
+    .container-cs,
+    .container-cs-sm,
+    .container-cs-md,
+    .container-cs-lg,
+    .container-cs-xl {
+        max-width: 1480px ;
     }
 }
