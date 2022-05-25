@@ -1,0 +1,125 @@
+.logoimage{
+    font-size: 1rem;
+    position: relative;
+}
+.logoimage::after{
+    position: absolute;
+    display: block;
+   
+    content: 'فروشگاه انلاین موبایل و لوازم جانبی';
+    color: #d0d0d0;
+    font-size: 0.65rem;
+
+}
+.logodesc{
+    color: #d0d0d0;
+    font-size: 0.5rem;
+}
+.searchbar input{
+    border-radius: 10px;
+ }
+.searchbar input::-webkit-input-placeholder{
+    color: #d0d0d0;
+    font-size: 0.8rem;
+}
+.searchbar  .input-group-append > .btn{
+    border-radius:0.5rem 0 0 0.5rem !important;
+}
+.searchbar .form-control:not(:last-child){
+    border-radius: 0 0.5rem 0.5rem 0!important;
+}
+.searchbar .form-control:focus{
+    box-shadow: none;
+    border-color:#ced4da;
+}
+.button-container-in-topnav .login-btn{
+    font-size: 0.65rem;
+    color: black;   
+    border-color: transparent;
+    background-color: #ebebeb;
+}
+.button-container-in-topnav .basket-btn{
+    font-size: 0.65rem;
+    color: #fff;
+}
+.button-container-in-topnav a span.icon{
+    font-size: 1.2rem;
+    /* margin-left: 1rem; */
+}
+#numberOfIcon{
+    /* margin-right: 10px; */
+}
+.button-container-in-topnav a {
+    width: 10rem;
+}
+@media screen and (max-width:600px) {
+    .button-container-in-topnav a{
+        font-size: 0.25rem;
+        padding: 0.75rem 0.75rem !important;
+    }
+    .button-container-in-topnav a.basket-btn{
+        margin-left: 50px;
+    }
+    .button-container-in-topnav a.login-btn{
+        margin-right: 1.5rem !important;
+    }
+    
+    .button-container-in-topnav a span.btn-text {
+       display:none;
+    }
+    .searchbar input::-webkit-input-placeholder{
+        color: #d0d0d0;
+        font-size: 0.45rem;
+    }
+    .logoimage::after{
+
+     display: none;
+    
+    }
+}
+@media screen and (max-width:992px) {
+    .searchbar input::-webkit-input-placeholder{
+        color: #d0d0d0;
+        font-size: 0.5rem;
+    }
+        .logoimage::after{
+            
+            font-size: 0.45rem;
+   
+    
+    }
+    .button-container-in-topnav a{
+        font-size: 0.5rem !important;
+        padding:0.5rem 0.65rem !important ;
+    
+    }
+    .button-container-in-topnav a.basket-btn .btn-text{
+        margin-left:10px;
+        margin-right:10px;
+    }
+}
+.main-nav .custom-navbar-nav a span.menu-title{
+    font-size: 0.7rem;
+}
+.main-nav .custom-navbar-nav a .menu-icon{
+    font-size: 1rem;
+    margin-left: 5px;
+}
+.icon{
+    font-size: 1rem;
+    margin-left: 5px; 
+}
+.main-nav .custom-navbar-nav .dropdown-toggle::after {
+    display: none;
+}
+#category{
+    vertical-align: 5px;
+}
+.main-nav .custom-navbar-nav .nav-item{
+margin-left: 0 !important;
+}
+.main-nav .bookmarks{
+    font-size: 0.7rem;
+    margin-left: 1rem;
+
+}
