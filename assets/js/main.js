@@ -38,3 +38,12 @@ $(document).ready(function(){
         ]
       });
   });
+  $(document).ready(function(){
+      $('.btn-group button').click(function(){
+      $('.color-ball').next().removeClass('d-flex');
+      $('.color-ball').parent().removeClass('border-secondary border rounded-pill ')
+      $(this).children("span").addClass('d-flex');
+      $(this).addClass('border rounded-pill border-secondary')       
+         
+      });
+  });

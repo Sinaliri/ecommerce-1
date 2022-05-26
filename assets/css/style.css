@@ -1,6 +1,7 @@
 @import url('/assets/css/_topnav.css');
 @import url('/assets/css/_breadcrumb.css');
 @import url('/assets/css/_product-detail.css');
+@import url('/assets/css/_product-desc.css');
 @font-face {
     font-family: IRANSans-web;
     src: url(/assets/fonts/IRANSans-web.woff);
