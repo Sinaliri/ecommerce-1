@@ -12,7 +12,68 @@
 
 
 }
+@media screen and (max-width:480px) {
+    .product-info .product-main-info h5{
+        font-size: 0.7rem;
+        color: #000;
+    
+    }
+    .product-info .product-main-info p span{
+        font-size: 0.6rem !important ;
+    }
+    
+}
+.offer-slider h5{
+    font-size: 0.7rem;
+}
 .product-info .product-main-info p span{
     font-size: 0.8rem;
     color: rgb(54, 54, 54);
+}
+.offer-slider .slider-wrapper{
+    width: 9rem !important;
+}
+.my-slick-slider .card{
+    width: 10rem !important;
+    border: none;
+    background-color: #fff;
+}
+.my-slick-slider .card img{
+    height: 6rem;
+    width: 4rem;
+    margin: 1rem auto;
+}
+.my-slick-slider .card .card-text{
+    font-size: 0.5rem;
+    color: #9d9d9d;
+}
+.my-slick-slider .card .card-body a{
+    font-size: 0.5rem;
+
+}
+.my-slick-slider button.slick-next{
+    background-color: transparent;
+    right: -1rem;
+}
+.my-slick-slider button.slick-next::before{
+    content: '\2039';
+    background-color: transparent;
+    color: #7a7777;
+    right: -1rem;
+    font-size: 3rem;
+}
+.my-slick-slider button.slick-prev{
+    background-color: transparent;
+
+    left: 1rem;
+    z-index: 22;
+}
+.my-slick-slider button.slick-prev::before{
+    content: '\203A';
+    background-color: transparent;
+    color: #7a7777;
+    font-size: 3rem;
+    
+ 
+    position: absolute;
 }
