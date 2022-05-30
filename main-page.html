@@ -11,7 +11,8 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="/assets/css/owl.carousel.css">
     <link rel="stylesheet" href="/assets/css/owl.theme.default.css">
-    <link rel="stylesheet" href="/assets/css/zoomy.css">
+    <link rel="stylesheet" href="assets/css/jQuery.countdownTimer.css">
+   <link rel="stylesheet" href="/assets/css/zoomy.css">
     <link rel="stylesheet" href="/assets/css/bootstrap-rtl.css">
     <link rel="stylesheet" href="/assets/css/style.css">
 
@@ -167,7 +168,7 @@
                         <span class="value">گوشی موبایل</span>
                     </a>
                 </div>
-                <div class="product-color d-flex my-3 align-items-center">
+                <div class="product-color d-flex my-3 align-items-center mt-4">
                     <h5>رنگ:</h5>
                     
                         <div class="btn-group ml-3 mb-1" role="group" aria-label="Basic example">
@@ -201,7 +202,40 @@
 
                       </div>
                 </div>
+                <div class="product-pricing-section">
+                    <div class="border border-danger rounded px-4">
+                        <div class="countdownTimer px-2 pt-2 d-flex justify-content-between">
+                            <span class="brand">
+                                <img class="img-fluid" src="/assets/img/discount.png" alt="">
+                            </span>
+                            <div id="countdowntimer"><span id="future_date"></span></div>
+                        </div>
+                        <div class="productPrice">
+                            <span class="preprice w-75 ml-4"> <s>41,000,000</s> تومان</span>
+                            <div class="current-price d-flex justify-content-between mb-1">
+                                <span class="lastprice bg-secondary rounded w-75 d-flex justify-content-center align-items-center mr-2"> 41,790,000 تومان</span>
+                                <span class="benefit bg-danger text-white rounded w-25">
+                                    سود شما
+                                    <br>
+                                    <span>790,000</span>
+                                    ت
+                                </span>
+                            </div>
+                            
+                        </div>
+                        <a class="add-to-card btn btn-danger w-100 px-5 py-2 " href="#">
+                            اضافه به سبد خرید                           
+                             <span class="icon material-symbols-outlined">
+                                shopping_cart
+                                </span>
+                        </a>
+                        <div class="aboutShop text-center my-2">
+                            <a href="#">چرا از <em><b>فروشگاه </b></em> خرید کنیم؟</a>
+                        </div>
+                    </div>
+                    <div class="border border-danger rounded"></div>
                 </div>
+             </div>
             <div class="col-sm-12 col-md-12 col-lg-4 ">
                 <div class="product-main-info mt-4">
                     <h5 class="main-property mb-3 ">ویژگی های اصلی:</h5>
@@ -317,6 +351,7 @@
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="/assets/js/owl.carousel.js"></script>
 <script src="/assets/js/zoomy.js"></script>
+<script src="assets/js/jQuery.countdownTimer.js"></script>
 <script src="/assets/js/main.js"></script>
 </body>
 </html>

@@ -12,8 +12,8 @@ $(document).ready(function(){
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 2.5,
-              slidesToScroll: 2,
+              slidesToShow: 1.5,
+              slidesToScroll: 1,
               infinite: false,
               dots: false
             }
@@ -21,8 +21,8 @@ $(document).ready(function(){
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 2.5,
-              slidesToScroll:2
+              slidesToShow: 1.5,
+              slidesToScroll:1
             }
           },
           {
@@ -37,43 +37,59 @@ $(document).ready(function(){
           // instead of a settings object
         ]
       });
-  });
-  $(document).ready(function(){
       $('.btn-group button').click(function(){
-      $('.color-ball').next().removeClass('d-flex');
-      $('.color-ball').parent().removeClass('border rounded-pill ')
-      $(this).children("span").addClass('d-flex');
-      $(this).addClass('border rounded-pill ')       
-         
-      });
-
-      $('.ProductPic-icons .fa-heart').click(function(){
-        $(this).toggleClass("fa-solid text-danger");
-      })
-      $('.ProductPic-icons .fa-star').click(function(){
-        $(this).toggleClass("fa-solid").css("color","yellow");
-      })
-
-      
-        // zoomy plugin add
-      var urls = [
-        
-            '/assets/img/sam1.jpg',
-            '/assets/img/sam2.jpg',
-            '/assets/img/sam3.jpg',
-            '/assets/img/sam4.jpg',
-            '/assets/img/sam5.jpg',
-
-            '/assets/img/sam6.jpg'
-          ];
-          $('#firstGallery').zoomy(urls , {
-           width: 300,  
-            height: 450,
-            glare:false
+        $('.color-ball').next().removeClass('d-flex');
+        $('.color-ball').parent().removeClass('border rounded-pill ')
+        $(this).children("span").addClass('d-flex');
+        $(this).addClass('border rounded-pill ')       
            
-          });
+        });
+  
+        $('.ProductPic-icons .fa-heart').click(function(){
+          $(this).toggleClass("fa-solid text-danger");
+        })
+        $('.ProductPic-icons .fa-star').click(function(){
+          $(this).toggleClass("fa-solid").css("color","yellow");
+        })
+  
         
-        
-        
-        
+          // zoomy plugin add
+        var urls = [
+          
+              '/assets/img/sam1.jpg',
+              '/assets/img/sam2.jpg',
+              '/assets/img/sam3.jpg',
+              '/assets/img/sam4.jpg',
+              '/assets/img/sam5.jpg',
+  
+              '/assets/img/sam6.jpg'
+            ];
+            $('#firstGallery').zoomy(urls , {
+             width: 300,  
+              height: 450,
+              glare:false
+             
+            });
+
+            // countdown timer initialize
+            $(function(){
+              $("#future_date").countdowntimer({
+                dateAndTime : "2022/05/31 00:00:00",
+                size : "sm",
+                fontColor: "#dc3545",
+                backgroundColor: "#fff",
+                borderColor: "transparent",
+                 
+              });
+            });  
   });
+
+
+
+
+     
+        
+        
+        
+        
+ 

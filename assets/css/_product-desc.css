@@ -36,3 +36,38 @@
 .pink{
     background-color: #ff4a8f !important;
 }
+.product-desc .product-pricing-section .countdownTimer .brand{
+    height: 30px;
+}
+.product-desc .product-pricing-section .countdownTimer .brand img{
+    height: 100%;
+}
+.product-desc .product-pricing-section{
+    max-width: 310px;
+}
+.product-desc .product-pricing-section .productPrice .preprice{
+    color: #ccc;
+    font-size: 14px;
+    text-align: right;
+}
+.product-desc .product-pricing-section .productPrice .current-price .benefit{
+    padding: 1px 5px;
+    font-size: 8px;
+    
+}
+.product-desc .product-pricing-section .productPrice .current-price .benefit span{
+    font-size: 10px;
+}
+.product-desc .product-pricing-section .productPrice .current-price .lastprice{
+    color: #efefef;
+    font-size: 20px;
+}
+.product-desc .product-pricing-section .add-to-card{
+    font-size: 14px;
+}
+.product-desc .product-pricing-section .add-to-card span{
+    vertical-align: -4px;
+}
+.product-desc .product-pricing-section .aboutShop{
+    font-size: 10px;
+}
