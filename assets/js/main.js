@@ -46,4 +46,34 @@ $(document).ready(function(){
       $(this).addClass('border rounded-pill ')       
          
       });
+
+      $('.ProductPic-icons .fa-heart').click(function(){
+        $(this).toggleClass("fa-solid text-danger");
+      })
+      $('.ProductPic-icons .fa-star').click(function(){
+        $(this).toggleClass("fa-solid").css("color","yellow");
+      })
+
+      
+        // zoomy plugin add
+      var urls = [
+        
+            '/assets/img/sam1.jpg',
+            '/assets/img/sam2.jpg',
+            '/assets/img/sam3.jpg',
+            '/assets/img/sam4.jpg',
+            '/assets/img/sam5.jpg',
+
+            '/assets/img/sam6.jpg'
+          ];
+          $('#firstGallery').zoomy(urls , {
+           width: 300,  
+            height: 450,
+            glare:false
+           
+          });
+        
+        
+        
+        
   });

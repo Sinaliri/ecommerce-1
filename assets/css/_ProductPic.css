@@ -1,0 +1,30 @@
+.ProductPic .ProductPic-icons i{
+    margin-left: 30px;
+    font-size: 24px;
+}
+.ProductPic .ProductPic-text p{
+    font-size: 10px !important;
+}
+.ProductPic .ProductPic-text span{
+    font-size: 15px ;
+
+}
+.ProductPic .ProductPic-imgslider div .zoom-main {
+    height: 90%;
+  
+}
+.ProductPic .ProductPic-imgslider div .zoom-thumb {
+    
+    height: 10%;
+}
+.ProductPic .ProductPic-imgslider div .zoom-main span{
+    border: none;
+}
+.ProductPic .ProductPic-imgslider div .zoom-main span img{
+width: 100%;
+}
+@media screen and (min-width:1200px) {
+    .ProductPic .ProductPic-imgslider #firstGallery{
+        width: 450px !important;
+        }
+}
