@@ -66,7 +66,7 @@ $(document).ready(function(){
             ];
             $('#firstGallery').zoomy(urls , {
              width: 300,  
-              height: 450,
+              height: 420,
               glare:false
              
             });
@@ -74,16 +74,20 @@ $(document).ready(function(){
             // countdown timer initialize
             $(function(){
               $("#future_date").countdowntimer({
-                dateAndTime : "2022/05/31 00:00:00",
+                dateAndTime : "2022/05/31 01:36:20",
                 size : "sm",
                 fontColor: "#dc3545",
                 backgroundColor: "#fff",
                 borderColor: "transparent",
-                 
+                 timeUp :  timesup
               });
             });  
-  });
+           // var time= $('#future_date').innerHtml();
+           function timesup(){
+            $('.countdownTimer').addClass('d-none mt-5').removeClass('d-flex');
 
+          }
+  });
 
 
 

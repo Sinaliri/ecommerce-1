@@ -10,12 +10,12 @@
 
 }
 .ProductPic .ProductPic-imgslider div .zoom-main {
-    height: 90%;
+    height: 85%;
   
 }
 .ProductPic .ProductPic-imgslider div .zoom-thumb {
     
-    height: 10%;
+    height: 15%;
 }
 .ProductPic .ProductPic-imgslider div .zoom-main span{
     border: none;

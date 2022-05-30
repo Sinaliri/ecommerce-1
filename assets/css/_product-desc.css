@@ -36,6 +36,16 @@
 .pink{
     background-color: #ff4a8f !important;
 }
+.product-desc .garantee div button span{
+    font-size: 12px;
+}
+.product-desc .garantee div button:focus{
+    box-shadow: none;
+    outline:1px solid #000
+}
+.product-desc .garantee div button i{
+    font-size: 14px;
+}
 .product-desc .product-pricing-section .countdownTimer .brand{
     height: 30px;
 }
@@ -63,7 +73,7 @@
     font-size: 20px;
 }
 .product-desc .product-pricing-section .add-to-card{
-    font-size: 14px;
+    font-size: 12px;
 }
 .product-desc .product-pricing-section .add-to-card span{
     vertical-align: -4px;
@@ -71,3 +81,13 @@
 .product-desc .product-pricing-section .aboutShop{
     font-size: 10px;
 }
+.product-desc .product-pricing-section .delivery-text .delivery-text-one{
+font-size: 14px;
+}
+.product-desc .product-pricing-section .delivery-text .delivery-text-one i{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.product-desc .product-pricing-section .delivery-text .delivery-text-two{
+    font-size: 10px;
+    }
