@@ -104,3 +104,29 @@ line-height: 26px;
     background-color: #f5f5f5;
     border-radius: 10px;
 }
+.customerComment-section .custom-alert{
+    background-color: #19e119d9 !important;
+    color: #fff !important;
+    font-size: 12px;
+
+}
+.customerComment-section .custom-alert button{
+    font-size: 10px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #19e119d9;
+    opacity: 1;
+
+}
+.customerComment-section .customerComment-title{
+    padding: 20px 10px;
+    font-size: 12px;
+}
+.customerComment-section .customerComment-title .number0fcomments{
+   color: #ccc;
+   margin-right: 5px;
+}
+.customerComment-section .customerComment-title .title{
+
+}
