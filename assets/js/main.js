@@ -12,8 +12,8 @@ $(document).ready(function(){
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 1.5,
-              slidesToScroll: 1,
+              slidesToShow: 2.5,
+              slidesToScroll: 2,
               infinite: false,
               dots: false
             }
@@ -87,6 +87,12 @@ $(document).ready(function(){
             $('.countdownTimer').addClass('d-none mt-5').removeClass('d-flex');
 
           }
+          $('.more-btn').click(function(){
+            $('.moshakhasat-wrapper').toggleClass('overflow-hidden')
+            $('.productnav').toggleClass('overflow-hidden')
+            $('.custom-tab-content').toggleClass('jquery-add-height')
+            $('.moshakhasat-wrapper').toggleClass('mx-500')
+          })
   });
 
 
