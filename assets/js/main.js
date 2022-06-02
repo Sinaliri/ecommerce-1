@@ -10,9 +10,18 @@ $(document).ready(function(){
         
         responsive: [
           {
+            breakpoint: 1000,
+            settings: {
+              slidesToShow: 3.5,
+              slidesToScroll: 2,
+              infinite: false,
+              dots: false
+            }
+          },
+          {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 2.5,
+              slidesToShow: 1.5,
               slidesToScroll: 2,
               infinite: false,
               dots: false
@@ -21,7 +30,7 @@ $(document).ready(function(){
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 1.5,
+              slidesToShow: 2.5,
               slidesToScroll:1
             }
           },

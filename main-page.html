@@ -354,20 +354,20 @@
             <div class="col-md-8 col-sm-12 productnav position-relative overflow-hidden">
                 <ul class="nav nav-tabs custom-nav-tabs w-100" id="myTab" role="tablist">
                     <li class="nav-item">
-                      <a class="nav-link " id="naghdobarresi" data-toggle="tab" href="#naghd" role="tab" aria-controls="naghd" aria-selected="true"><i class="fa-regular fa-clipboard"></i>نقدوبررسی</a>
+                      <a class="nav-link active" id="naghdobarresi" data-toggle="tab" href="#naghd" role="tab" aria-controls="naghd" aria-selected="true"><i class="fa-regular fa-clipboard"></i>نقدوبررسی</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" id="moshakhasate" data-toggle="tab" href="#moshakhasatekala" role="tab" aria-controls="moshakhasatekala" aria-selected="false"><i class="fa-solid fa-clipboard-list"></i>مشخصات</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link active" id="didgah" data-toggle="tab" href="#didgah-shoma" role="tab" aria-controls="didgah-shoma" aria-selected="false"><i class="fa-solid fa-clipboard-check"></i>دیدگاه</a>
+                      <a class="nav-link " id="didgah" data-toggle="tab" href="#didgah-shoma" role="tab" aria-controls="didgah-shoma" aria-selected="false"><i class="fa-solid fa-clipboard-check"></i>دیدگاه</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="soal" data-toggle="tab" href="#soalvapasokh" role="tab" aria-controls="soalvapasokh" aria-selected="false"><i class="fa-solid fa-clipboard-question"></i>پرسش و پاسخ</a>
                       </li>
                   </ul>
                   <div class="tab-content custom-tab-content" id="myTabContent">
-                    <div class="tab-pane fade " id="naghd" role="tabpanel" aria-labelledby="naghdobarresi">
+                    <div class="tab-pane fade show active" id="naghd" role="tabpanel" aria-labelledby="naghdobarresi">
          
                         <div class="moshakhasat-wrapper mx-500 overflow-hidden " >
                             <p>
@@ -447,7 +447,7 @@
                         </div>
 
                     </div>
-                    <div class="tab-pane fade show active" id="didgah-shoma" role="tabpanel" aria-labelledby="didgah">
+                    <div class="tab-pane fade " id="didgah-shoma" role="tabpanel" aria-labelledby="didgah">
                         <div class="customerComment-section">
                             <div class="customerComment-title mb-5">
                                 <span class="title">نظرات کاربران</span>
@@ -460,28 +460,71 @@
                                   </button>
                             </div>
                         </div>
-                        <div class="addedComments">
-                            <div>
-                                <div>
-                                    <img src="" alt="">
+                        <div class="addedComments pt-3 pl-3 mt-3">
+                            <div class="dateAndImage d-flex align-items-center" >
+                                <div class="Image-User">
+                                    <img class="img-fluid rounded-circle" src="assets/img/user-img.jpg" alt="">
                                 </div>
-                                <div>
-                                    <span class="time"></span>
-                                    <span class="name"></span>
+                                <div class="d-flex flex-column timeAndName ml-3">
+                                    <span class="time">1401-02-03</span>
+                                    <span class="name">برد پیت</span>
                                 </div>
                             </div>
-                            <div>
-                                <p class="comment text"></p>
-                                <div class="pros-cons">
-                                    <div class="pros">
-
-                                    </div>
-                                    <div class="cons">
-                                        
-                                    </div>
+                            <div class="comment-text-wrapper">
+                                <p class="comment-text ">به عنوان دوربین هم میشه ازش استفاده کرد.</p>
+                                <div class="pros-cons d-flex flex-wrap">
+                                    
+                                        <div class="cons col-sm-12 col-md-5 ">
+                                            <p><i class="fa-solid fa-minus mr-2"></i>قیمت زیاد</p>
+                                            <p><i class="fa-solid fa-minus mr-2"></i>قیمت زیاد</p>
+                                            <p><i class="fa-solid fa-minus mr-2"></i>قیمت زیاد</p>
+                                            <p><i class="fa-solid fa-minus mr-2"></i>قیمت زیاد</p>
+    
+                                        </div>
+    
+                                        <div class="pros col-sm-12 col-md-5 ">
+                                            <p><i class="fa-solid fa-plus mr-2"></i>پردازنده اسنپدراگن</p>
+                                            <p><i class="fa-solid fa-plus mr-2"></i>پردازنده اسنپدراگن</p>
+                                            <p><i class="fa-solid fa-plus mr-2"></i>پردازنده اسنپدراگن</p>
+                                        </div>
+                                    
+                                    
                                 </div>
                             </div>
                         </div>
+                        <div class="addedComments pt-3 pl-3 mt-3">
+                            <div class="dateAndImage d-flex align-items-center" >
+                                <div class="Image-User">
+                                    <img class="img-fluid rounded-circle" src="assets/img/user-img.jpg" alt="">
+                                </div>
+                                <div class="d-flex flex-column timeAndName ml-3">
+                                    <span class="time">1401-02-03</span>
+                                    <span class="name">برد پیت</span>
+                                </div>
+                            </div>
+                            <div class="comment-text-wrapper">
+                                <p class="comment-text ">به عنوان دوربین هم میشه ازش استفاده کرد.</p>
+                                <div class="pros-cons d-flex flex-wrap">
+                                    
+                                        <div class="cons col-sm-12 col-md-5 ">
+                                            <p><i class="fa-solid fa-minus mr-2"></i>قیمت زیاد</p>
+                                            <p><i class="fa-solid fa-minus mr-2"></i>قیمت زیاد</p>
+                                            <p><i class="fa-solid fa-minus mr-2"></i>قیمت زیاد</p>
+                                            <p><i class="fa-solid fa-minus mr-2"></i>قیمت زیاد</p>
+    
+                                        </div>
+    
+                                        <div class="pros col-sm-12 col-md-5 ">
+                                            <p><i class="fa-solid fa-plus mr-2"></i>پردازنده اسنپدراگن</p>
+                                            <p><i class="fa-solid fa-plus mr-2"></i>پردازنده اسنپدراگن</p>
+                                            <p><i class="fa-solid fa-plus mr-2"></i>پردازنده اسنپدراگن</p>
+                                        </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                     <div class="tab-pane fade" id="soalvapasokh" role="tabpanel" aria-labelledby="soal">.x..</div>
                   </div>
@@ -490,6 +533,10 @@
         <br><br><br><br><br><br>
     </div>
     <!-- end productnav -->
+
+    <!-- start footer -->
+    
+    <!-- end footer -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

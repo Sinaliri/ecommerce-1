@@ -127,6 +127,39 @@ line-height: 26px;
    color: #ccc;
    margin-right: 5px;
 }
-.customerComment-section .customerComment-title .title{
+/* .customerComment-section .customerComment-title .title{
 
+} */
+.addedComments{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+    
+    
+}
+.addedComments .dateAndImage .Image-User img{
+    width: 50px;
+    height: 50px;
+}
+.addedComments .dateAndImage .timeAndName .time{
+    color: var(--red-color);
+    font-size: 10px;
+}
+.addedComments .dateAndImage .timeAndName .name{
+    color: var(--gray-color);
+    font-size: 11px;   
+}
+.addedComments  .comment-text-wrapper {
+   
+    font-size: 10px;
+    margin-top: 20px;
+}
+.addedComments  .comment-text-wrapper .pros-cons .pros p {
+    font-size: 10px;
+}
+.addedComments  .comment-text-wrapper .pros-cons .pros p i{
+    color: rgb(23, 230, 23);
+    vertical-align: -1px;
+}
+.addedComments  .comment-text-wrapper .pros-cons .cons p i{
+    color: var(--red-color);
 }
