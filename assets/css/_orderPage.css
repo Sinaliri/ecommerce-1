@@ -1,0 +1,56 @@
+.detailWrapper .verification-headder img{
+    width: 50px;
+    top: -27px;
+}
+.detailWrapper .verification-main .verification-title{
+    font-size: 12px;
+}
+.detailWrapper .verification-main  .verification-details div{
+background-color: #f2f2f2;
+color: rgb(154, 154, 154);
+font-size: 12px;
+}
+.detailWrapper .verification-main  .verification-details div .key{
+width: 40%;
+display: inline-block;
+
+}
+.detailWrapper .verification-main  .verification-details div .value{
+    display: inline-block;
+    line-height: 22px;
+    }
+
+.priceCalculator .before-calculate{
+    font-size: 10px;
+    color: var(--gray-color);
+}
+.priceCalculator .price-rows{
+  margin-bottom: 10px;
+}
+.priceCalculator .price-rows .value{
+    font-size: 10px;
+    width: 40%;
+}
+.priceCalculator .lastPrice{
+    font-size: 14px;
+}
+.priceCalculator .lastPrice .value{
+    font-size: 13px;
+}
+.priceCalculator .price-rows:nth-child(4){
+    margin-top: 5px;
+    margin-bottom: 10px;
+   font-size: 12px;
+}
+.priceCalculator .not-finished{
+   font-size: 9px; 
+    color: var(--gray-color);
+}
+.priceCalculator form .input-group input::-webkit-input-placeholder{
+    font-size: 10px;
+    color: #ccc;
+    
+}
+.priceCalculator form .input-group input{
+    padding: 2px 5px !important;
+}

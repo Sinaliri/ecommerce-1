@@ -4,6 +4,7 @@
 @import url('/assets/css/_product-desc.css');
 @import url('/assets/css/_ProductPic.css');
 @import url('/assets/css/_productnav.css');
+@import url('/assets/css/_orderPage.css');
 @font-face {
     font-family: IRANSans-web;
     src: url(/assets/fonts/IRANSans-web.woff);
