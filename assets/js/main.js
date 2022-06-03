@@ -102,6 +102,40 @@ $(document).ready(function(){
             $('.custom-tab-content').toggleClass('jquery-add-height')
             $('.moshakhasat-wrapper').toggleClass('mx-500')
           })
+
+          $('.form-check input[type=radio][name=pardakht]').change(function(){
+            if (this.value == 'wallet') {
+              $('.form-check .radio-off').attr("src", "assets/img/radio-button-off-outline-svgrepo-com.svg")
+              $(this).siblings('img').attr("src", "assets/img/checked-radio.svg")
+                // alert("wallet");
+            }
+          else if (this.value == 'bankmeli') {
+            $('.form-check .radio-off').attr("src", "assets/img/radio-button-off-outline-svgrepo-com.svg")
+            $(this).siblings('img').attr("src", "assets/img/checked-radio.svg")
+            //  alert("bankmeli");
+
+          }
+          else if (this.value == 'bankmelat') {
+            $('.form-check .radio-off').attr("src", "assets/img/radio-button-off-outline-svgrepo-com.svg")
+            $(this).siblings('img').attr("src", "assets/img/checked-radio.svg")
+
+            // alert("bankmelat");
+
+          }
+          else if (this.value == 'zarinpal') {
+            $('.form-check .radio-off').attr("src", "assets/img/radio-button-off-outline-svgrepo-com.svg")
+            $(this).siblings('img').attr("src", "assets/img/checked-radio.svg")
+              // alert("zarinpal");
+          }
+
+
+          })
+          function checkchange(){
+            $('.form-check .radio-off').attr("src", "assets/img/radio-button-off-outline-svgrepo-com.svg")
+            $(this).siblings('img').attr("src", "assets/img/checked-radio.svg")
+        
+          }
+
   });
 
 

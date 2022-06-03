@@ -83,10 +83,10 @@ display: inline-block;
     color: rgba(96, 96, 96, 0.829);
 }
 .payment-method .form-check .form-check-input{
-    margin-right: -2px;
+    margin-right: 1px;
 }
 .payment-method .form-check .form-check-label{
-    padding-right: 25px;
+    padding-right: 1rem;
 }
 .payment-method .payment-title{
     font-size: 12px;
@@ -105,4 +105,16 @@ display: inline-block;
 }
 .payment-modal-content .modal-footer{
     border: none;
+}
+.payment-method .form-check .radio-off{
+    width: 16px;
+}
+.payment-method .form-check .radio-on{
+    width: 3px;
+}
+.payment-method .form-check input{
+    display: none;
+}
+.payment-modal-content .modal-footer button{
+    font-size: 14px;
 }
