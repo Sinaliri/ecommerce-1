@@ -46,7 +46,7 @@ $(document).ready(function(){
           // instead of a settings object
         ]
       });
-      $('.btn-group button').click(function(){
+      $('#color-btn button').click(function(){
         $('.color-ball').next().removeClass('d-flex');
         $('.color-ball').parent().removeClass('border rounded-pill ')
         $(this).children("span").addClass('d-flex');
