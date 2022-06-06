@@ -1,0 +1,66 @@
+.CustomerAddress{
+    margin-top: 55px;
+}
+.CustomerAddress div ul.nav li a{
+    color: #000 !important;
+    height: auto;
+    font-size: 10px;
+}
+.custom-nav-add .nav-link.active, .custom-nav-add .show > .nav-link {
+    
+    border: 0.1px solid var(--red-color);
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.CustomerAddress div ul.nav li a i{
+    margin-left: 10px;
+}
+.previousAdd div .btn{
+    padding: 0 !important;
+} 
+.previousAdd div .btn:focus{
+    box-shadow: none;
+    z-index: 0;
+} 
+.previousAdd div .preadd:focus .add-detail,
+.sending-method  .sending-btn button:focus, 
+.sending-method  .sending-btn .payment-method:focus
+{
+    box-shadow: var(--red-color) 0px -0.05px 0.95px 0.6px
+}
+    
+
+.previousAdd div button div.add-detail{
+    background-color:  var(--light-gray-color);
+    width: 80%;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.active div button img.img-checked{
+   width: 20px; 
+   margin-right: 20px;
+   margin-bottom: 10px;
+}
+.sending-method{
+    background-color: var(--light-gray-color);
+
+    
+}
+.sending-method .sending-title{
+    font-size: 12px;
+    font-weight: bold;
+}
+.sending-method  .sending-btn button{
+    font-size: 10px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 5px !important;
+    border-color: transparent;
+    margin: 0 5px !important;
+}
+.sending-method  .sending-notice{
+    font-size: 10px;
+    text-align: center;
+    margin-right: 10px;
+}

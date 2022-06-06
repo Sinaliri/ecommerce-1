@@ -101,7 +101,7 @@ $(document).ready(function(){
             $('.productnav').toggleClass('overflow-hidden')
             $('.custom-tab-content').toggleClass('jquery-add-height')
             $('.moshakhasat-wrapper').toggleClass('mx-500')
-          })
+          });
 
           $('.form-check input[type=radio][name=pardakht]').change(function(){
             if (this.value == 'wallet') {
@@ -127,14 +127,23 @@ $(document).ready(function(){
             $(this).siblings('img').attr("src", "assets/img/checked-radio.svg")
               // alert("zarinpal");
           }
-
+         
 
           })
+          // console.log("ready");
+          $(".add-button button").click(function(){
+            
+            var x=$(this);
+            $(".add-button button .img-checked").attr("src", "assets/img/radio-button-off-outline-svgrepo-com.svg")
+            x.children("img").attr("src", "assets/img/checked-radio.svg")
+          })
+         
           function checkchange(){
             $('.form-check .radio-off').attr("src", "assets/img/radio-button-off-outline-svgrepo-com.svg")
             $(this).siblings('img').attr("src", "assets/img/checked-radio.svg")
         
           }
+
 
   });
 
